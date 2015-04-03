@@ -29,7 +29,7 @@ body {
 }
 
 nav {
-		width: 960px;
+		width: 89.8245614%;
 		margin: 0 auto;
 		text-align: left;
 		
@@ -37,7 +37,7 @@ nav {
 
 ul {
 		font-family: Verdana;
-		font-size:14px;
+		font-size: 0.875em;
 		color: #ffffff;
 		list-style: none;
 		padding: 0;
@@ -47,7 +47,7 @@ ul {
 
 li {
 		display: inline-block;
-		width: 100px;
+		width: 9.35672515%;
 		margin-top: 1%;
 
 }
@@ -58,111 +58,113 @@ li a {
 		
 }
 
+li a:hover {
+	text-decoration: none;
+	color: #f50622;
+
+}
+
+li a:link {
+	text-decoration: none;
+
+}
+
+li a:active {
+	color: #03a67a;
+
+}
+
 #header {
-		margin-left: -40px;
+		margin-left: -3.74269006%;
 		
 }
 
 #about {
 		float: left;
-		width: 65px;
-		margin-left: 25px;
-		padding-top: 10px;
+		width: 6.08187135%;
+		margin-left: 2.33918129%;
+		padding-top: 0.93567251%;
 		
 }
 
 #content {
 		float: left;
-		width: 500px;
-		margin-left: -100px;
-		padding-top: 50px;
-		padding-bottom: 40px;
+		width: 46.78362573%;
+		margin-left: -7.48538012%;
+		padding-top: 4.67836257%;
+		padding-bottom: 3.74269006%;
 		
 }
 
 #history {
 		clear: left;
-		margin-left: 25px;
-		padding-bottom: -10px;
+		margin-left: 2.33918129%;
 		
 }
 
 #content2 {
 		clear: left;
-		width: 500px;
-		margin-left: -10px;
-		padding-bottom: 20px;
+		width: 46.78362573%;
+		margin-left: 0.93567251%;
+		padding-bottom: 1.87134503%;
 		
 }
 
 #gallery {
 		float: right;
-		width: 300px;
-		margin-right: 10px;
+		width: 28.07017544%;
+		margin-right: 0.93567251%;
 		text-align: center;
-		margin-top: -465px;
+		margin-top: -38.3625731%;
 		
 }
 
 #Featured {
 		clear: both;
-		margin-left: 25px;
-		text-align: center;
-		
+		margin-left: 2.33918129%;
 		
 }
 
 #feature1 {
 		clear: left;
-		margin-left: -15px;
-		margin-top: 30px;
+		margin-left: -1.40350877%;
+		margin-top: 2.80701754%;
 		
 }
 
-#button1 {
-		float: left;
-		width: 85px;
-		margin-left: 85px;
-		text-decoration: none;
-		display: block;
-		border-top: 2px solid #000;
-		border-right: 2px solid #000;
-		border-bottom: 4px solid #000;
-		border-left: 10px solid #000;
-		background-color: #000;
+#feature2 {
+		clear: left;
+		margin-left: 18.71345029%;
+		margin-top: -20.58479532%;
 		
 }
 
-#button2 {
-		float: left;
-		width: 85px;
-		margin-left: 110px;
-		text-decoration: none;
-		display: block;
-		border-top: 2px solid #000;
-		border-right: 2px solid #000;
-		border-bottom: 4px solid #000;
-		border-left: 10px solid #000;
-		background-color: #000;
-
+figcaption {
+		text-align: center;
+		margin-top: 2.80701754%;
+		margin-left: -65.38011696%;
+		
 }
+
 
 #contact {
 		clear: left;
-		width: 110px;
-		padding-top: 30px;
-		margin-left: 35px;
+		width: 10.29239766%;
+		padding-top: 2.80701754%;
+		margin-left: 3.2748538%;
 		
 }
 
 p {
-		margin-left: 35px;
+		margin-left: 3.2748538%;
+		font-family: sans serif;
+		font-size: 0.875em;
 		
 }
 
 footer {
 		text-align: center;
-		margin-top: 150px;
+		margin-top: 14.03508772%;
 		
 }
 
