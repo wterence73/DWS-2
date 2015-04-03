@@ -1,0 +1,168 @@
+/** Beginning Css **/
+
+html {
+		background-color: #717378;
+
+}
+
+body {
+		background-color: #cccccc;
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		
+}
+
+
+
+/** Beginning Navigation **/
+
+#navbar {
+		background-color: #222;
+		position: fixed;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+		height: 5%;
+		top: 0;
+		
+}
+
+nav {
+		width: 960px;
+		margin: 0 auto;
+		text-align: left;
+		
+}
+
+ul {
+		font-family: Verdana;
+		font-size:14px;
+		color: #ffffff;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		
+}
+
+li {
+		display: inline-block;
+		width: 100px;
+		margin-top: 1%;
+
+}
+
+li a {
+		color: #ffffff;
+		text-decoration: none;
+		
+}
+
+#header {
+		margin-left: -40px;
+		
+}
+
+#about {
+		float: left;
+		width: 65px;
+		margin-left: 25px;
+		padding-top: 10px;
+		
+}
+
+#content {
+		float: left;
+		width: 500px;
+		margin-left: -100px;
+		padding-top: 50px;
+		padding-bottom: 40px;
+		
+}
+
+#history {
+		clear: left;
+		margin-left: 25px;
+		padding-bottom: -10px;
+		
+}
+
+#content2 {
+		clear: left;
+		width: 500px;
+		margin-left: -10px;
+		padding-bottom: 20px;
+		
+}
+
+#gallery {
+		float: right;
+		width: 300px;
+		margin-right: 10px;
+		text-align: center;
+		margin-top: -465px;
+		
+}
+
+#Featured {
+		clear: both;
+		margin-left: 25px;
+		text-align: center;
+		
+		
+}
+
+#feature1 {
+		clear: left;
+		margin-left: -15px;
+		margin-top: 30px;
+		
+}
+
+#button1 {
+		float: left;
+		width: 85px;
+		margin-left: 85px;
+		text-decoration: none;
+		display: block;
+		border-top: 2px solid #000;
+		border-right: 2px solid #000;
+		border-bottom: 4px solid #000;
+		border-left: 10px solid #000;
+		background-color: #000;
+		
+}
+
+#button2 {
+		float: left;
+		width: 85px;
+		margin-left: 110px;
+		text-decoration: none;
+		display: block;
+		border-top: 2px solid #000;
+		border-right: 2px solid #000;
+		border-bottom: 4px solid #000;
+		border-left: 10px solid #000;
+		background-color: #000;
+
+}
+
+#contact {
+		clear: left;
+		width: 110px;
+		padding-top: 30px;
+		margin-left: 35px;
+		
+}
+
+p {
+		margin-left: 35px;
+		
+}
+
+footer {
+		text-align: center;
+		margin-top: 150px;
+		
+}
+
