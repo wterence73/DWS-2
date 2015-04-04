@@ -1,6 +1,190 @@
 /** Beginning Css **/
 
-html {
+a[title="http://www.chrysler.com/en/this-is-chrysler/history/"] {
+		margin: 0 auto;
+		
+}
+
+h2 + p {                                 /** selector **/
+		 color: #000;
+		 
+}
+
+html { 																	/** html background **/
+		background-color: #717378;
+
+}
+
+body {																			/** body css**/
+		background-color: #cccccc;
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		
+}
+
+
+
+/** Beginning Navigation **/
+
+#navbar {
+		background-color: #222;
+		position: fixed;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+		height: 5%;
+		top: 0;
+		
+}
+
+nav {
+		width: 89.8245614%;
+		margin: 0 auto;
+		text-align: left;
+		
+}
+
+ul:first-child {
+		font-family: Verdana;
+		font-size: 0.875em;
+		color: #ffffff;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		
+}
+
+li {
+		display: inline-block;
+		width: 9.35672515%;
+		margin-top: 1%;
+
+}
+
+li a:nth-child(odd) {
+		color: #ffffff;
+		text-decoration: none;
+		
+}
+
+ul>li a:hover {
+	text-decoration: none;
+	color: #f50622;
+
+}
+
+ul>li a:link {
+	text-decoration: none;
+
+}
+
+ul>li a:active {
+	color: #03a67a;
+
+}
+
+.header {
+		margin-left: -3.74269006%;
+		
+}
+
+#about {
+		float: left;
+		width: 6.08187135%;
+		margin-left: 2.33918129%;
+		padding-top: 0.93567251%;
+		
+}
+
+#content {												/** Content Setup **/
+		float: left;
+		width: 46.78362573%;
+		margin-left: -7.48538012%;
+		padding-top: 4.67836257%;
+		padding-bottom: 3.74269006%;
+		
+}
+
+.history {
+		clear: left;
+		margin-left: 2.33918129%;
+		
+}
+
+#content2 {
+		clear: left;
+		width: 46.78362573%;
+		margin-left: 0.93567251%;
+		padding-bottom: 1.87134503%;
+		
+}
+
+#gallery {
+		float: right;
+		width: 28.07017544%;
+		margin-right: 0.93567251%;
+		text-align: center;
+		margin-top: -38.3625731%;
+		
+}
+
+#Featured {
+		clear: both;
+		margin-left: 2.33918129%;
+		
+}
+
+#feature1 {
+		clear: left;
+		margin-left: -1.40350877%;
+		margin-top: 2.80701754%;
+		
+}
+
+#feature2 {
+		clear: left;
+		margin-left: 18.71345029%;
+		margin-top: -20.58479532%;
+		
+}
+
+figcaption {
+		text-align: center;
+		margin-top: 2.80701754%;
+		margin-left: -65.38011696%;
+		
+}
+
+
+#contact {														/** Contact Info **/
+		clear: left;
+		width: 10.29239766%;
+		padding-top: 2.80701754%;
+		margin-left: 3.2748538%;
+		
+}
+
+p {
+		margin-left: 3.2748538%;
+		font-family: sans-serif;
+		font-size: 0.875em;
+		
+}
+
+footer {
+		text-align: center;
+		margin-top: 14.03508772%;
+		
+}
+
+/** Responsive Styles **/
+
+/*Tablet*/
+
+@media screen and (min-width: 600px) {
+
+		html {
 		background-color: #717378;
 
 }
@@ -74,7 +258,7 @@ ul>li a:active {
 
 }
 
-#header {
+.header {
 		margin-left: -3.74269006%;
 		
 }
@@ -96,7 +280,7 @@ ul>li a:active {
 		
 }
 
-#history {
+.history {
 		clear: left;
 		margin-left: 2.33918129%;
 		
@@ -157,7 +341,7 @@ figcaption {
 
 p {
 		margin-left: 3.2748538%;
-		font-family: sans serif;
+		font-family: sans-serif;
 		font-size: 0.875em;
 		
 }
@@ -167,10 +351,354 @@ footer {
 		margin-top: 14.03508772%;
 		
 }
+}
 
-/** Responsive Styles **/
+/** Tablet landscape **/
 
-/*Tablet*/
+@media screen and (min-width: 768px) {
+
+		html {
+		background-color: #717378;
+
+}
+
+body {
+		background-color: #cccccc;
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		
+}
+
+/** Beginning Navigation **/
+
+#navbar {
+		background-color: #222;
+		position: fixed;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+		height: 5%;
+		top: 0;
+		
+}
+
+nav {
+		width: 89.8245614%;
+		margin: 0 auto;
+		text-align: left;
+		
+}
+
+ul:first-child {
+		font-family: Verdana;
+		font-size: 0.875em;
+		color: #ffffff;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		
+}
+
+li {
+		display: inline-block;
+		width: 9.35672515%;
+		margin-top: 1%;
+
+}
+
+li a {
+		color: #ffffff;
+		text-decoration: none;
+		
+}
+
+ul>li a:hover {
+	text-decoration: none;
+	color: #f50622;
+
+}
+
+ul>li a:link {
+	text-decoration: none;
+
+}
+
+ul>li a:active {
+	color: #03a67a;
+
+}
+
+.header {
+		margin-left: -3.74269006%;
+		
+}
+
+#about {
+		float: left;
+		width: 6.08187135%;
+		margin-left: 2.33918129%;
+		padding-top: 0.93567251%;
+		
+}
+
+#content {
+		float: left;
+		width: 46.78362573%;
+		margin-left: -7.48538012%;
+		padding-top: 4.67836257%;
+		padding-bottom: 3.74269006%;
+		
+}
+
+.history {
+		clear: left;
+		margin-left: 2.33918129%;
+		
+}
+
+#content2 {
+		clear: left;
+		width: 46.78362573%;
+		margin-left: 0.93567251%;
+		padding-bottom: 1.87134503%;
+		
+}
+
+#gallery {
+		float: right;
+		width: 28.07017544%;
+		margin-right: 0.93567251%;
+		text-align: center;
+		margin-top: -38.3625731%;
+		
+}
+
+#Featured {
+		clear: both;
+		margin-left: 2.33918129%;
+		
+}
+
+#feature1 {
+		clear: left;
+		margin-left: -1.40350877%;
+		margin-top: 2.80701754%;
+		
+}
+
+#feature2 {
+		clear: left;
+		margin-left: 18.71345029%;
+		margin-top: -20.58479532%;
+		
+}
+
+figcaption {
+		text-align: center;
+		margin-top: 2.80701754%;
+		margin-left: -65.38011696%;
+		
+}
+
+
+#contact {
+		clear: left;
+		width: 10.29239766%;
+		padding-top: 2.80701754%;
+		margin-left: 3.2748538%;
+		
+}
+
+p {
+		margin-left: 3.2748538%;
+		font-family: sans-serif;
+		font-size: 0.875em;
+		
+}
+
+footer {
+		text-align: center;
+		margin-top: 14.03508772%;
+		
+}
+}
+
+/** Mobile **/
+
+@media screen and (min-width: 1024px) {
+
+		html {
+		background-color: #717378;
+
+}
+
+body {
+		background-color: #cccccc;
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		
+}
+
+
+
+/** Beginning Navigation **/
+
+#navbar {
+		background-color: #222;
+		position: fixed;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+		height: 5%;
+		top: 0;
+		
+}
+
+nav {
+		width: 89.8245614%;
+		margin: 0 auto;
+		text-align: left;
+		
+}
+
+ul:first-child {
+		font-family: Verdana;
+		font-size: 0.875em;
+		color: #ffffff;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		
+}
+
+li {
+		display: inline-block;
+		width: 9.35672515%;
+		margin-top: 1%;
+
+}
+
+li a {
+		color: #ffffff;
+		text-decoration: none;
+		
+}
+
+ul>li a:hover {
+	text-decoration: none;
+	color: #f50622;
+
+}
+
+ul>li a:link {
+	text-decoration: none;
+
+}
+
+ul>li a:active {
+	color: #03a67a;
+
+}
+
+.header {
+		margin-left: -3.74269006%;
+		
+}
+
+#about {
+		float: left;
+		width: 6.08187135%;
+		margin-left: 2.33918129%;
+		padding-top: 0.93567251%;
+		
+}
+
+#content {
+		float: left;
+		width: 46.78362573%;
+		margin-left: -7.48538012%;
+		padding-top: 4.67836257%;
+		padding-bottom: 3.74269006%;
+		
+}
+
+.history {
+		clear: left;
+		margin-left: 2.33918129%;
+		
+}
+
+#content2 {
+		clear: left;
+		width: 46.78362573%;
+		margin-left: 0.93567251%;
+		padding-bottom: 1.87134503%;
+		
+}
+
+#gallery {
+		float: right;
+		width: 28.07017544%;
+		margin-right: 0.93567251%;
+		text-align: center;
+		margin-top: -38.3625731%;
+		
+}
+
+#Featured {
+		clear: both;
+		margin-left: 2.33918129%;
+		
+}
+
+#feature1 {
+		clear: left;
+		margin-left: -1.40350877%;
+		margin-top: 2.80701754%;
+		
+}
+
+#feature2 {
+		clear: left;
+		margin-left: 18.71345029%;
+		margin-top: -20.58479532%;
+		
+}
+
+figcaption {
+		text-align: center;
+		margin-top: 2.80701754%;
+		margin-left: -65.38011696%;
+		
+}
+
+
+#contact {
+		clear: left;
+		width: 10.29239766%;
+		padding-top: 2.80701754%;
+		margin-left: 3.2748538%;
+		
+}
+
+p {
+		margin-left: 3.2748538%;
+		font-family: sans-serif;
+		font-size: 0.875em;
+		
+}
+
+footer {
+		text-align: center;
+		margin-top: 14.03508772%;
+		
+}
+}
+
+
+
 
 
 		
