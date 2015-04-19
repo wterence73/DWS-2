@@ -1,0 +1,244 @@
+<!-- Beginning of HTML -->
+
+<!DOCTYPE html>					
+<html lang="en">						
+
+<head>
+    <meta charset= "utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>  Rental Place Application </title>
+    
+    <!-- Custom CSS Stylesheet -->
+    
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    </head>
+    
+    <body>
+
+		<div id="top" class="container">
+
+		<header class="row">
+		
+		<nav class="navbar navbar-inverse">
+		
+		<div class="container-fluid">
+		
+		<!-- Heading Setup -->
+		
+		<div class="navbar-header">
+		
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              	
+              	<span class="nav-nav"> navigation </span>
+              	
+              	<span class="icon-bar"></span>
+              	
+              	<span class="icon-bar"></span>
+              	
+              	<span class="icon-bar"></span>
+            
+            </button>
+		
+		<a class="navbar-brand" href="#"> The Rental Place </a>
+		
+		</div>
+		
+									<!-- Navigation -->
+									
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">			
+				
+					<ul class="nav navbar-nav navbar-right">
+							
+						<li><a href="index.html"> Home </a></li>
+						<li><a href="#furniture"> Furniture </a></li>
+						<li><a href="#appliances"> Appliances </a></li>
+						<li><a href="#computers"> Computers </a></li>
+						<li><a href="#electronics"> Electronics </a></li>
+						<li><a href="#smartphones"> Smartphones </a></li>
+						<li><a href="#specials"> Specials </a></li>
+						<li><a href="#shopping"> Shop by Brand </a></li>
+						
+					</ul>
+				
+						</div>
+					</div>
+			</nav>
+				
+				</header>
+			
+			<!-- Jumbotron Setup -->
+			
+				<section class="jumbotron">
+				
+						<h1> The Rental Place </h1>
+						
+						<p> We make owning your product needs easy! </p>
+						
+						<p><a class="btn btn-primary btn-lg" href="#enter" role="button"> Online Rental Application </a></p>
+						
+    			</section>
+    			
+   				<section id="about" class="row">						<!-- Section Creation -->
+   				 
+      	<div class="title col-lg-2">
+      	
+        				<h2>About</h2>
+        				
+      	</div>
+      	
+      <div class="body col-lg-10">
+      
+        				<p> At The Rental Place, we make it easy to rent the furniture, appliances, computers, and electronics you need right now. Explore the links below to get a feel for the types of products we carry. We have a wide selection of rental products from big screen TVs to bedroom and living room sets to tablet computers. </p>
+      </div>
+      
+    			</section>
+    			
+    <section id="buy" class="row">						<!-- Section Creation -->
+    	
+      	<div class="title col-lg-5">
+      	
+        		<h2> 3- Ways to Buy </h2>
+        		<br>
+        	
+      	</div>
+      	
+      	 <div class="body col-lg-10">
+      	 
+      	 		<ol class="pay-list">									<!-- List Items Created -->
+      	 				
+      	 				<li><em> Buy It Now for The Low Cash Price. </em> And You Own It Today. </li>
+      	 				<li><em> Get 90 Days Same As Cash. </em> No Growing Interest.**</li>
+      	 				<li><em> Get A Worry-Free Payment Option. </em> Make A Fixed Number of Payments with No Growing Interest. </li>
+      	 				
+      	 		</ol>
+      	 		
+      	 	</div>
+      	 	
+      	 	<!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          Featured Product
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        
+          <div class="modal-dialog">
+          
+            <div class="modal-content">
+            
+              <div class="modal-header">
+              
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                
+                <h4 class="modal-title" id="myModalLabel"> Featured Products </h4>
+                
+              </div>
+              
+              <div class="modal-body">
+              		
+              				<figure>								<!-- Modal Images Added -->
+              
+              			<img src="images/redset.jpg" alt="Red Washer Set" width="150" height="130"/>
+              			<img src="images/Stainless.jpg" alt="Stainless Refrigerator" width="100" height="200"/>
+             			<img src="images/Range.jpg" alt="Stainless Range" width="100" height="150"/>
+             			<img src="images/free.jpg" alt="Freezer" width="100" height="150"/>
+             			
+             				</figure>
+             			
+             <div class="modal-footer">
+             
+                	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+             		
+             			</div>
+             		</div>
+             	</div>
+             </div>
+             
+             </div>
+             
+            </section>
+            
+            <form id="fillApp">
+            
+            		<h1> Start Your Application </h1>
+            		
+            		<fieldset>
+            		
+            				<legend>
+            						
+            						Contact Information
+            						
+            				</legend>
+            				
+            			<div class="firstname">
+            			
+            					<label> First Name: * </label>
+            					
+            					<input id="first-name" type="text" autofocus=""required="" placeholder="Ex: Terence" 
+            							
+            							name="first-name"/>
+            							
+            			</div>
+            			
+            			<div class="lastname">
+            			
+            					<label> Last Name </label>
+            			
+            					<input id="last-name" type="text" autofocus=""required="" placeholder="Ex: Williams"
+            					
+            							name="last-name"/>
+            			
+            			</div>
+            			
+            			<div class="emailaddress">
+            			
+            					<label> Email Address </label>
+            			
+            					<input id="email-address" type="text" autofocus=""required="" placeholder="Ex: wterence73@gmail.com"
+            					
+            							name="email-address"/>
+            			
+            			</div>
+            			
+            			<div class="verifyemailaddress">
+            			
+            					<label> Verify Email Address </label>
+            			
+            					<input id="verify-email-address" type="text" autofocus=""required="" placeholder="Ex: wterence73@gmail.com"
+            					
+            							name="verify-email-address"/>
+            			
+            			</div>
+            			
+            			<div class="primarynumber">
+            			
+            					<label> Primary Phone Number </label>
+            			
+            					<input id="primary-phone-number" type="text" autofocus=""required="" placeholder="Ex: 123-456-7890"
+            					
+            							name="primary-phone-number"/>
+            			
+            			</div>
+            			
+            		
+            		
+            
+            
+            
+    
+    
