@@ -1,50 +1,32 @@
-<!-- Beginning of HTML -->
-
-<!DOCTYPE html>					
+<!DOCTYPE html>					<!-- Beginning of HTML -->
 <html lang="en">						
 
 <head>
     <meta charset= "utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>  Rental Place Application </title>
-    
-    <!-- Custom CSS Stylesheet -->
-    
-    <link href="css/styles.css" rel="stylesheet">
-    
-    <!-- Bootstrap -->
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Google Fonts -->
-    
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+    <link href="css/styles.css" rel="stylesheet">
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    
-    </head>
-    
-    <body>
+	<title> The Rental Place Application </title>
+
+</head>
+
+<body>
 
 		<div id="top" class="container">
 
-		<header class="row">
 		
-		<nav class="navbar navbar-inverse">
-		
+	
 		<div class="container-fluid">
 		
 		<!-- Heading Setup -->
 		
-		<div class="navbar-header">
+		<div id="navbar">
 		
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		<div class="navbar-header">
               	
-              	<span class="nav-nav"> navigation </span>
+              	<span class="nav-nav"></span>
               	
               	<span class="icon-bar"></span>
               	
@@ -52,15 +34,13 @@
               	
               	<span class="icon-bar"></span>
             
-            </button>
-		
-		<a class="navbar-brand" href="#"> The Rental Place </a>
-		
+            
+	
+		</div>
 		</div>
 		
-									<!-- Navigation -->
-									
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">			
+		
+									<!-- Navigation -->		
 				
 					<ul class="nav navbar-nav navbar-right">
 							
@@ -77,9 +57,9 @@
 				
 						</div>
 					</div>
-			</nav>
+			
 				
-				</header>
+			
 			
 			<!-- Jumbotron Setup -->
 			
@@ -89,95 +69,44 @@
 						
 						<p> We make owning your product needs easy! </p>
 						
-						<p><a class="btn btn-primary btn-lg" href="#enter" role="button"> Online Rental Application </a></p>
+						<p><a class="btn btn-primary btn-lg" href="#enter" role="button"> Start Online Application </a></p>
 						
     			</section>
     			
    				<section id="about" class="row">						<!-- Section Creation -->
-   				 
-      	<div class="title col-lg-2">
-      	
+   
         				<h2>About</h2>
         				
-      	</div>
       	
-      <div class="body col-lg-10">
+      	
+      <div class="body1">
       
         				<p> At The Rental Place, we make it easy to rent the furniture, appliances, computers, and electronics you need right now. Explore the links below to get a feel for the types of products we carry. We have a wide selection of rental products from big screen TVs to bedroom and living room sets to tablet computers. </p>
       </div>
       
     			</section>
-    			
-    <section id="buy" class="row">						<!-- Section Creation -->
-    	
-      	<div class="title col-lg-5">
-      	
-        		<h2> 3- Ways to Buy </h2>
-        		<br>
-        	
-      	</div>
-      	
-      	 <div class="body col-lg-10">
-      	 
-      	 		<ol class="pay-list">									<!-- List Items Created -->
-      	 				
-      	 				<li><em> Buy It Now for The Low Cash Price. </em> And You Own It Today. </li>
-      	 				<li><em> Get 90 Days Same As Cash. </em> No Growing Interest.**</li>
-      	 				<li><em> Get A Worry-Free Payment Option. </em> Make A Fixed Number of Payments with No Growing Interest. </li>
-      	 				
-      	 		</ol>
-      	 		
-      	 	</div>
-      	 	
-      	 	<!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-          Featured Product
-        </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        
-          <div class="modal-dialog">
-          
-            <div class="modal-content">
-            
-              <div class="modal-header">
-              
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                
-                <h4 class="modal-title" id="myModalLabel"> Featured Products </h4>
-                
-              </div>
-              
-              <div class="modal-body">
-              		
-              				<figure>								<!-- Modal Images Added -->
-              
-              			<img src="images/redset.jpg" alt="Red Washer Set" width="150" height="130"/>
-              			<img src="images/Stainless.jpg" alt="Stainless Refrigerator" width="100" height="200"/>
-             			<img src="images/Range.jpg" alt="Stainless Range" width="100" height="150"/>
-             			<img src="images/free.jpg" alt="Freezer" width="100" height="150"/>
-             			
-             				</figure>
-             			
-             <div class="modal-footer">
-             
-                	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-             		
-             			</div>
-             		</div>
-             	</div>
-             </div>
-             
-             </div>
-             
-            </section>
             
             <form id="fillApp">
             
-            		<h1> Start Your Application </h1>
+            		<!-- Section Creation -->
+            		
+            		<section id="product" class="row">						
+            
+      		<div class="title col-lg-2">
+      		
+      		<div id="app">
+            
+            		<h1> Start Your  <strong> Application </strong></h1>
+            		
+             </div>
+             
+             <br>
+             <br>
+             <br>
             		
             		<fieldset>
+            		
+            		
             		
             				<legend>
             						
@@ -185,31 +114,37 @@
             						
             				</legend>
             				
+            		
+            				
             			<div class="firstname">
             			
-            					<label> First Name: * </label>
+            					<label> First Name: </label>
             					
-            					<input id="first-name" type="text" autofocus=""required="" placeholder="Ex: Terence" 
+            					<input id="first-name" type="text" autofocus=" "required=" " placeholder="Ex: Terence" 
             							
             							name="first-name"/>
             							
             			</div>
             			
+            			<br>
+            			
             			<div class="lastname">
             			
-            					<label> Last Name </label>
+            					<label> Last Name: </label>
             			
-            					<input id="last-name" type="text" autofocus=""required="" placeholder="Ex: Williams"
+            					<input id="last-name" type="text" autofocus=" "required=" " placeholder="Ex: Williams"
             					
             							name="last-name"/>
             			
             			</div>
             			
+            			<br>
+            			
             			<div class="emailaddress">
             			
-            					<label> Email Address </label>
+            					<label> Email Address: </label>
             			
-            					<input id="email-address" type="text" autofocus=""required="" placeholder="Ex: wterence73@gmail.com"
+            					<input id="email-address" type="text" autofocus=" "required=" " placeholder="Ex: wterence73@gmail.com"
             					
             							name="email-address"/>
             			
@@ -217,9 +152,11 @@
             			
             			<div class="verifyemailaddress">
             			
-            					<label> Verify Email Address </label>
+            			<br>
             			
-            					<input id="verify-email-address" type="text" autofocus=""required="" placeholder="Ex: wterence73@gmail.com"
+            					<label> Verify Email Address: </label>
+            			
+            					<input id="verify-email-address" type="text" autofocus=" "required=" " placeholder="Ex: wterence73@gmail.com"
             					
             							name="verify-email-address"/>
             			
@@ -227,13 +164,1094 @@
             			
             			<div class="primarynumber">
             			
-            					<label> Primary Phone Number </label>
+            			<br>
             			
-            					<input id="primary-phone-number" type="text" autofocus=""required="" placeholder="Ex: 123-456-7890"
+            					<label> Primary Phone Number: </label>
+            			
+            					<input id="primary-phone-number" type="text" autofocus=" "required=" " placeholder="Ex: 123-456-7890"
             					
             							name="primary-phone-number"/>
             			
             			</div>
+            			
+            			<br>
+            			
+            			<div class="phonetype">
+            					
+            					<label> Phone Type: </label>
+            					
+            				   <input type="radio" name="phoneType" value="Home" placeholder="">Home
+            				   
+            				   <input type="radio" name="phoneType" value="Cell" placeholder="">Cell
+            				   
+            				   <input type="radio" name="phoneType" value="Other" placeholder="">Other
+            				   
+        				</div>
+        				
+        				<br>
+        				
+        				<div class="secondarynumber">
+            			
+            					<label> Secondary Phone Number: </label>
+            			
+            					<input id="secondary-phone-number" type="text" autofocus=" " placeholder="Ex: 123-456-7890"
+            					
+            							name="secondary-phone-number"/>
+            			
+            			</div>
+            			
+            			<br>
+            			
+            			<div class="phonetype2">
+            					
+            					<label> Phone Type: </label>
+            					
+            				   <input type="radio" name="phoneType" value="Home" placeholder="">Home
+            				   
+            				   <input type="radio" name="phoneType" value="Cell" placeholder="">Cell
+            				   
+            				   <input type="radio" name="phoneType" value="Other" placeholder="">Other
+            				   
+        				</div>
+        				
+        				<br>
+        				
+        				<div class="streetaddress">
+            			
+            					<label> Street Address: </label>
+            			
+            					<input id="street-address" type="text" autofocus=" "required=" " placeholder="Ex: 123 Place St."
+            					
+            							name="street-address"/>
+            			
+            			</div>
+            			
+            			<br>
+            			
+            			<div class="cityname">
+            			
+            					<label> City: </label>
+            			
+            					<input id="city-address" type="text" autofocus=" "required=" " placeholder="Ex: Winter Park"
+            					
+            							name="city-address"/>
+            			
+            			</div>
+            			
+            			<br>
+            			
+            			<div class="state">
+            			
+            				<label> State: </label>
+            				
+            				<select>
+            				
+                			<option value="Alabama">Alabama</option>
+                			<option value="Alaska">Alaska</option>
+               				<option value="Arizona">Arizona</option>
+                			<option value="Arkansas">Arkansas</option>
+                			<option value="California">California</option>
+                			<option value="Colorado">Colorado</option>
+                			<option value="Connecticut">Connecticut</option>
+                			<option value="Delaware">Delaware</option>
+                			<option value="Florida">Florida</option>
+                			<option value="Georgia">Georgia</option>
+                			<option value="Hawaii">Hawaii</option>
+                			<option value="Idaho">Idaho</option>
+                			<option value="Illinois">Illinois</option>
+                			<option value="Indiana">Indiana</option>
+                			<option value="Iowa">Iowa</option>
+                			<option value="Kansas">Kansas</option>
+                			<option value="Kentucky">Kentucky</option>
+                			<option value="Louisiana">Louisiana</option>
+                			<option value="Maine">Maine</option>
+                			<option value="Maryland">Maryland</option>
+                			<option value="Massachusetts">Massachusetts</option>
+                			<option value="Michigan">Michigan</option>
+                			<option value="Minnesota">Minnesota</option>
+                			<option value="Mississippi">Mississippi</option>
+                			<option value="Missouri">Missouri</option>
+                			<option value="Montana">Montana</option>
+                			<option value="Nebraska">Nebraska</option>
+                			<option value="Nevada">Nevada</option>
+                			<option value="New Hampshire">New Hampshire</option>
+                			<option value="New Jersey">New Jersey</option>
+                			<option value="New Mexico">New Mexico</option>
+                			<option value="New York">New York</option>
+                			<option value="North Carolina">North Carolina</option>
+                			<option value="North Dakota">North Dakota</option>
+                			<option value="Ohio">Ohio</option>
+                			<option value="Oklahoma">Oklahoma</option>
+                			<option value="Oregon">Oregon</option>
+                			<option value="Pennsylvania">Pennsylvania</option>
+                			<option value="Rhode Island">Rhode Island</option>
+               		 		<option value="South Carolina">South Carolina</option>
+                			<option value="South Dakota">South Dakota</option>
+                			<option value="Tennessee">Tennessee</option>
+                			<option value="Texas">Texas</option>
+                			<option value="Utah">Utah</option>
+                			<option value="Vermont">Vermont</option>
+                			<option value="Virginia">Virginia</option>
+                			<option value="Washington">Washington</option>
+                			<option value="West Virginia">West Virginia</option>
+                			<option value="Wisconsin">Wisconsin</option>
+                			<option value="Wyoming">Wyoming</option>
+            				
+            				</select>
+        		       
+        		       </div>
+        		       
+        		       <br>
+        		       
+        		       <div class="zipcodenumber">
+            			
+            					<label> Zip Code: </label>
+            			
+            					<input id="zipcode-number" type="text" autofocus=" " placeholder="Ex: 12345"
+            					
+            							name="zipcode-number"/>
+            			
+            			</div>
+            			
+            			<div class="preferredcontact">
+            			
+            			<br>
+            					
+            					<label> Preferred Contact Time: </label>
+            					
+            				   <input type="radio" name="preferredcontact" value="Morning (9 a.m.-noon)" placeholder="">Morning (9 a.m.-noon)
+            				   
+            				   <input type="radio" name="preferredcontact" value="Afternoon (noon-5 p.m.)" placeholder="">Afternoon (noon-5 p.m.)
+            				   
+            				   <input type="radio" name="preferredcontact" value="Evening (5 p.m.-7 p.m.)" placeholder="">Evening (5 p.m.-7 p.m.)
+            				   
+        				</div>
+        				
+        				<br>
+        				
+        		</fieldset>
+        		
+        				<fieldset>
+        				
+        		
+        				
+        						<legend>
+        						
+        								Your Local Store
+        								
+        						</legend>
+        						
+        						<div class="streetaddress1">
+            			
+            					<label> Street Address: </label>
+            			
+            					<input id="street-address" type="text" autofocus=" "required=" " placeholder="Ex: 123 Place St."
+            					
+            							name="street-address"/>
+            			
+            			
+            			
+            			<br>
+            			
+            			<div class="cityname1">
+            			
+            					<label> City: </label>
+            			
+            					<input id="city-address" type="text" autofocus=" "required=" " placeholder="Ex: Winter Park"
+            					
+            							name="city-address"/>
+            			
+            			</div>
+            			
+            			<br>
+            			
+            			<div class="state1">
+            			
+            				<label> State: </label>
+            				
+            				<select>
+            				
+                			<option value="Alabama">Alabama</option>
+                			<option value="Alaska">Alaska</option>
+               				<option value="Arizona">Arizona</option>
+                			<option value="Arkansas">Arkansas</option>
+                			<option value="California">California</option>
+                			<option value="Colorado">Colorado</option>
+                			<option value="Connecticut">Connecticut</option>
+                			<option value="Delaware">Delaware</option>
+                			<option value="Florida">Florida</option>
+                			<option value="Georgia">Georgia</option>
+                			<option value="Hawaii">Hawaii</option>
+                			<option value="Idaho">Idaho</option>
+                			<option value="Illinois">Illinois</option>
+                			<option value="Indiana">Indiana</option>
+                			<option value="Iowa">Iowa</option>
+                			<option value="Kansas">Kansas</option>
+                			<option value="Kentucky">Kentucky</option>
+                			<option value="Louisiana">Louisiana</option>
+                			<option value="Maine">Maine</option>
+                			<option value="Maryland">Maryland</option>
+                			<option value="Massachusetts">Massachusetts</option>
+                			<option value="Michigan">Michigan</option>
+                			<option value="Minnesota">Minnesota</option>
+                			<option value="Mississippi">Mississippi</option>
+                			<option value="Missouri">Missouri</option>
+                			<option value="Montana">Montana</option>
+                			<option value="Nebraska">Nebraska</option>
+                			<option value="Nevada">Nevada</option>
+                			<option value="New Hampshire">New Hampshire</option>
+                			<option value="New Jersey">New Jersey</option>
+                			<option value="New Mexico">New Mexico</option>
+                			<option value="New York">New York</option>
+                			<option value="North Carolina">North Carolina</option>
+                			<option value="North Dakota">North Dakota</option>
+                			<option value="Ohio">Ohio</option>
+                			<option value="Oklahoma">Oklahoma</option>
+                			<option value="Oregon">Oregon</option>
+                			<option value="Pennsylvania">Pennsylvania</option>
+                			<option value="Rhode Island">Rhode Island</option>
+               		 		<option value="South Carolina">South Carolina</option>
+                			<option value="South Dakota">South Dakota</option>
+                			<option value="Tennessee">Tennessee</option>
+                			<option value="Texas">Texas</option>
+                			<option value="Utah">Utah</option>
+                			<option value="Vermont">Vermont</option>
+                			<option value="Virginia">Virginia</option>
+                			<option value="Washington">Washington</option>
+                			<option value="West Virginia">West Virginia</option>
+                			<option value="Wisconsin">Wisconsin</option>
+                			<option value="Wyoming">Wyoming</option>
+            				
+            				</select>
+        		       
+        		       </div>
+        		       
+        		       <br>
+        		       
+        		       <div class="zipcodenumber1">
+            			
+            					<label> Zip Code: </label>
+            			
+            					<input id="zipcode-number1" type="text" autofocus=" " placeholder="Ex: 12345"
+            					
+            							name="zipcode-number1"/>
+       
+        				</fieldset>
+        				
+        				<fieldset>
+        				
+        			
+        				
+        						<legend>
+        						
+        								Tell Us About Your Request
+        								
+        						</legend>
+        						
+        						<input type="radio" name="I'm new to The Rental Place." value="I'm new to The Rental Place." placeholder="">I'm new to The Rental Place.
+            				   
+            				   <input type="radio" name="I've shopped at The Rental Place before." value="I've shopped at The Rental Place before." placeholder="">I've shopped at The Rental Place before.
+            				   
+            				   <br>
+            				   <br>
+            				 
+            				   <input type="checkbox" name="I found what I wanted and am ready to get it. " value="I found what I wanted and am ready to get it. " placeholder="">I found what I wanted and am ready to get it. 
+            				   
+            				   <input type="checkbox" name="I have a question about pricing." value="I have a question about pricing." placeholder="">I have a question about pricing.
+            				   
+            				   <input type="checkbox" name="I have a question about a product." value="I have a question about a product." placeholder="">I have a question about a product.
+            				   
+            				   <input type="checkbox" name="Other. Please explain." value="Other. Please explain." placeholder="">Other. Please explain.
+            				   
+            				   <textarea rows="4" cols="50"></textarea>
+        						
+        				</fieldset>
+        				
+        				
+        				
+        				<fieldset>
+        				
+        				
+        				
+        						<legend>
+        						
+        						What Products Are You Interested In?
+        						
+        						</legend>
+        						
+        			<div id="rooms">
+        			
+        					<h5> Rooms and Furniture </h5>
+        					
+        						<input type="checkbox" name="Living rooms" value="Living rooms" placeholder="">Living rooms
+            				   
+            				   	<input type="checkbox" name="Bedrooms" value="Bedrooms" placeholder="">Bedrooms
+            				   
+            				   	<input type="checkbox" name="Dining rooms" value="Dining rooms" placeholder="">Dining rooms
+            				   
+            				   	<input type="checkbox" name="TV & Entertainment Stands" value="TV & Entertainment Stands" placeholder="">TV & Entertainment Stands
+            				   
+            				   	<input type="checkbox" name="Room Accessories" value="Room Accessories" placeholder="">Room Accessories
+        					
+        			</div>
+        			
+        			<div id="electronics">
+        			
+        					<h5> Electronics </h5>
+        					
+        						<input type="checkbox" name="Televisions" value="Televisions" placeholder="">Televisions
+            				   
+            				   	<input type="checkbox" name="Home Theater Systems" value="Home Theater Systems" placeholder="">Home Theater Systems
+            				   
+            				   	<input type="checkbox" name="Gaming Systems" value="Gaming Systems" placeholder="">Gaming Systems
+            				   
+        			</div>
+        			
+        			<div id="appliances">
+        			
+        					<h5> Appliances </h5>
+        					
+        						<input type="checkbox" name="Washer/Dryer" value="Washer/Dryer" placeholder="">Washer/Dryer
+            				   
+            				   	<input type="checkbox" name="Refrigerators and Freezers" value="Refrigerators and Freezers" placeholder="">Refrigerators and Freezers
+            				   
+            				   	<input type="checkbox" name="Ranges" value="Ranges" placeholder="">Ranges
+            				   	
+            				   	<input type="checkbox" name="Dishwashers and A/C Units" value="Dishwashers and A/C Units" placeholder="">Dishwashers and A/C Units
+            				   
+        			</div>
+        			
+        			<div id="pc">
+        			
+        					<h5> Computers </h5>
+        					
+        						<input type="checkbox" name="Laptops" value="Laptops" placeholder="">Laptops
+            				   
+            				   	<input type="checkbox" name="Desktops" value="Desktops" placeholder="">Desktops
+            				   
+            				   	<input type="checkbox" name="Tablets" value="Tablets" placeholder="">Tablets
+            				   
+        			</div>
+        			
+        			<div id="smphones">
+        			
+        					<h5> Smartphones </h5>
+        					
+        						<input type="checkbox" name="Smartphones" value="Smartphones" placeholder="">Smartphones
+            				   
+            				   	<input type="checkbox" name="Plans" value="Plans" placeholder="">Plans
+            				   
+        			</div>
+        			
+        			</div>
+        			
+        			<br>
+        			<br>
+        			<br>
+        			
+        			<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          					Submit Contact Information
+        			</button>
+        			
+        			<br>
+        			<br>
+        			
+        			<div id="continue">
+        			
+        					<p><strong> Or </strong> Continue Your Application Below </p>
+        					
+        			</div>
+        					</section>
+        			
+        			</div>
+        			
+        				</fieldset>
+        				
+        				<!-- Section Creation -->
+        				
+        				<section id="enter" class="row">						
+            
+        		<div id="completion">
+        		
+        				<h1> Complete Your <strong> Application </strong><h1>
+        				
+        				<h3> Provide more details and save even more time in the store. </h3>
+        		
+        		</div>
+        		
+        		<div class="gendername">
+            					
+            				<label> Gender: </label>
+            					
+            				<input type="radio" name="Male" value="Male" placeholder="">Male
+            				   
+            				<input type="radio" name="Female" value="Female" placeholder="">Female
+            				
+            	</div>
+            	
+            	<div class="dateofbirth">
+            			
+            					<label> Birthdate: </label>
+            			
+            					<input id="date" type="date" autofocus=" "required=" " placeholder=""
+            					
+            							name="date"/>
+            			
+            	</div>
+            	
+            	<div class="currentaddress">
+            			
+            					<label> How long at current address: </label>
+            			
+            					<select>
+            				
+                					<option value="Select one">Select one</option>
+                					<option value="Less than a year">Less than a year</option>
+               						<option value="1-3 years">1-3 years</option>
+               						<option value="3-6 years">3-6 years</option>
+               						<option value="More than 6 years">More than 6 years</option>
+               						
+               					</select>
+            			
+            		</div>
+            		
+            		<div class="lengthofres">
+            			
+            				<label> Move In Date: </label>
+            				
+            				<select>
+            				
+                			<option value="Month">Month</option>
+                			<option value="01">01</option>
+                			<option value="02">02</option>
+               				<option value="03">03</option>
+                			<option value="04">04</option>
+                			<option value="05">05</option>
+                			<option value="06">06</option>
+                			<option value="07">07</option>
+                			<option value="08">08</option>
+                			<option value="09">09</option>
+                			<option value="10">10</option>
+                			<option value="11">11</option>
+                			<option value="12">12</option>
+                			
+                			</select>
+                			
+                			<select>
+            				
+                			<option value="Year">Year</option>
+                			<option value="2014">2014</option>
+                			<option value="2013">2013</option>
+               				<option value="2012">2012</option>
+                			<option value="2011">2011</option>
+                			<option value="2010">2010</option>
+                			<option value="2009">2009</option>
+                			<option value="2008">2008</option>
+                			<option value="2007">2007</option>
+                			<option value="2006">2006</option>
+                			<option value="2005">2005</option>
+                			<option value="2004">2004</option>
+                			<option value="2003">2003</option>
+                			<option value="2002">2002</option>
+                			<option value="2001">2001</option>
+                			<option value="2000">2000</option>
+               				<option value="1999">1999</option>
+                			<option value="1998">1998</option>
+                			<option value="1997">1997</option>
+                			<option value="1996">1996</option>
+                			<option value="1995">1995</option>
+                			<option value="1994">1994</option>
+                			<option value="1993">1993</option>
+                			<option value="1992">1992</option>
+                			<option value="1991">1991</option>
+                			<option value="1990">1990</option>
+                			<option value="1989">1989</option>
+                			<option value="1988">1988</option>
+                			<option value="1987">1987</option>
+                			<option value="1986">1986</option>
+                			<option value="1985">1985</option>
+                			<option value="1984">1984</option>
+                			<option value="1983">1983</option>
+                			<option value="1982">1982</option>
+                			<option value="1981">1981</option>
+                			<option value="1980">1980</option>
+                			
+                			</select>
+                			
+                	</div>
+                	
+                	<div class="rentpayment">
+            			
+            					<label> Monthly payment ($): </label>
+            			
+            					<input id="rent-payment" type="text" autofocus=" "required=" " placeholder="Ex: 100.00"
+            					
+            							name="rent-payment"/>
+            			
+            		</div>
+            		
+            		<div class="rentholder">
+            			
+            					<label>  Landlord or mortgage holder: </label>
+            			
+            					<input id="rent-holder" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="rent-holder"/>
+            			
+            		</div>
+            		
+            		<div class="rentholdernumber">
+            			
+            					<label>  Landlord/Mortgage holder phone number: </label>
+            			
+            					<input id="rent-holder-number" type="text" autofocus=" "required=" " placeholder="Ex: 123-456-7890"
+            					
+            							name="rent-holder-number"/>
+            			
+            		</div>
+            		
+            		<div class="leaseperson">
+            			
+            					<label>   Name of person on lease/mortgage: </label>
+            			
+            					<input id="lease-person" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="lease-person"/>
+            			
+            		</div>
+            		
+            						<h4> Employer information </h4>
+            						
+            		<div class="employername">
+            					
+            				<label> Employer/Source of Income: </label>
+            					
+            				<input id="employer-name" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="employer-name"/>
+            				
+            		</div>
+            		
+            		<div class="employerphone">
+            					
+            				<label> Employer phone number: </label>
+            					
+            				<input id="employer-phone" type="text" autofocus=" "required=" " placeholder="Ex: 123-456-7890"
+            					
+            							name="employer-phone"/>
+            				
+            		</div>
+            		
+            		<div class="employeraddress">
+            					
+            				<label> Employer address: </label>
+            					
+            				<input id="employer-address" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="employer-address"/>
+            				
+            		</div>
+            		
+            		<div class="suitenumber">
+            					
+            				<label> Suite #: </label>
+            					
+            				<input id="suite-number" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="suite-number"/>
+            				
+            		</div>
+            		
+            		<div class="employercity">
+            					
+            				<label> City: </label>
+            					
+            				<input id="employer-city" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="employer-city"/>
+            				
+            		</div>
+            		
+            		<div class="state2">
+            			
+            				<label> State: </label>
+            				
+            				<select>
+            				
+                			<option value="Alabama">Alabama</option>
+                			<option value="Alaska">Alaska</option>
+               				<option value="Arizona">Arizona</option>
+                			<option value="Arkansas">Arkansas</option>
+                			<option value="California">California</option>
+                			<option value="Colorado">Colorado</option>
+                			<option value="Connecticut">Connecticut</option>
+                			<option value="Delaware">Delaware</option>
+                			<option value="Florida">Florida</option>
+                			<option value="Georgia">Georgia</option>
+                			<option value="Hawaii">Hawaii</option>
+                			<option value="Idaho">Idaho</option>
+                			<option value="Illinois">Illinois</option>
+                			<option value="Indiana">Indiana</option>
+                			<option value="Iowa">Iowa</option>
+                			<option value="Kansas">Kansas</option>
+                			<option value="Kentucky">Kentucky</option>
+                			<option value="Louisiana">Louisiana</option>
+                			<option value="Maine">Maine</option>
+                			<option value="Maryland">Maryland</option>
+                			<option value="Massachusetts">Massachusetts</option>
+                			<option value="Michigan">Michigan</option>
+                			<option value="Minnesota">Minnesota</option>
+                			<option value="Mississippi">Mississippi</option>
+                			<option value="Missouri">Missouri</option>
+                			<option value="Montana">Montana</option>
+                			<option value="Nebraska">Nebraska</option>
+                			<option value="Nevada">Nevada</option>
+                			<option value="New Hampshire">New Hampshire</option>
+                			<option value="New Jersey">New Jersey</option>
+                			<option value="New Mexico">New Mexico</option>
+                			<option value="New York">New York</option>
+                			<option value="North Carolina">North Carolina</option>
+                			<option value="North Dakota">North Dakota</option>
+                			<option value="Ohio">Ohio</option>
+                			<option value="Oklahoma">Oklahoma</option>
+                			<option value="Oregon">Oregon</option>
+                			<option value="Pennsylvania">Pennsylvania</option>
+                			<option value="Rhode Island">Rhode Island</option>
+               		 		<option value="South Carolina">South Carolina</option>
+                			<option value="South Dakota">South Dakota</option>
+                			<option value="Tennessee">Tennessee</option>
+                			<option value="Texas">Texas</option>
+                			<option value="Utah">Utah</option>
+                			<option value="Vermont">Vermont</option>
+                			<option value="Virginia">Virginia</option>
+                			<option value="Washington">Washington</option>
+                			<option value="West Virginia">West Virginia</option>
+                			<option value="Wisconsin">Wisconsin</option>
+                			<option value="Wyoming">Wyoming</option>
+            				
+            				</select>
+        		       
+        		       </div>
+            		
+            		<div class="employerzip">
+            					
+            				<label> Zip: </label>
+            					
+            				<input id="employer-zip" type="text" autofocus=" "required=" " placeholder="Ex: 12345"
+            					
+            							name="employer-zip"/>
+            				
+            		</div>
+            		
+            		<div class="companylength">
+            			
+            					<label> How long with company? </label>
+            			
+            					<select>
+            				
+                					<option value="Select one">Select one</option>
+                					<option value="Less than a year">Less than a year</option>
+               						<option value="1-3 years">1-3 years</option>
+               						<option value="3-6 years">3-6 years</option>
+               						<option value="More than 6 years">More than 6 years</option>
+               						
+               					</select>
+            			
+            		</div>
+            		
+            		<div class="employerposition">
+            					
+            				<label> Position: </label>
+            					
+            				<input id="employer-position" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="employer-position"/>
+            				
+            		</div>
+            		
+            		<div class="shift">
+            					
+            				<label> Shift hours: </label>
+            					
+            				<input id="employer-shift" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="employer-shift"/>
+            				
+            		</div>
+            		
+            		<div class="hourlypay">
+            					
+            				<label> Hourly take home pay: </label>
+            					
+            				<input id="hourly-pay" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="hourly-pay"/>
+            				
+            		</div>
+            		
+            		<div class="monthlypay">
+            					
+            				<label> Monthly take home pay: </label>
+            					
+            				<input id="monthly-pay" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="monthly-pay"/>
+            				
+            		</div>
+            		
+            		<div class="companypay">
+            			
+            					<label> Pay schedule: </label>
+            			
+            					<select>
+            				
+                					<option value="Select one">Select one</option>
+                					<option value="Weekly">Weekly</option>
+               						<option value="Twice a month">Twice a month</option>
+               						<option value="Monthly">Monthly</option>
+               			
+               					</select>
+            			
+            		</div>
+            		
+            		<div class="paydays">
+            					
+            				<label> Day/dates paid: </label>
+            					
+            				<input id="pay-days" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="pay-days"/>
+            				
+            		</div>
+            	
+            				</fieldset>
+            				
+            				<fieldset>
+            				
+            						<legend>
+            						
+            								Spouse Information
+            								
+            						</legend>
+            						
+            						<h4> Spouse Information </h4>
+            						
+            			<div class="spouse">
+            			
+            					<label> I live with my spouse: </label>
+            			
+            					<select>
+            				
+                					<option value="Select one">Select one</option>
+                					<option value="Yes">Yes</option>
+               						<option value="No">No</option>
+               						
+               					</select>
+               					
+               			</div>
+            			
+            				</fieldset>
+            				
+            				<fieldset>
+            				
+            						<legend>
+            						
+            						References
+            						
+            						</legend>
+            						
+            								<h3> Two references will be needed to complete your request. </h3>
+            								
+            								<h4> Reference 1 <em> (Relative not living with you.) </em> </h4>
+            								
+            		<div class="refname">
+            					
+            				<label> Name: </label>
+            					
+            				<input id="ref-name" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="ref-name"/>
+            				
+            		</div>
+            		
+            		<div class="refrelations">
+            					
+            				<label> Relationship: </label>
+            					
+            				<input id="ref-relations" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="ref-relations"/>
+            				
+            		</div>
+            		
+            		<div class="refnumber">
+            					
+            				<label> Phone number: </label>
+            					
+            				<input id="ref-number" type="text" autofocus=" "required=" " placeholder="Ex: 123-456-7890"
+            					
+            							name="ref-number"/>
+            				
+            		</div>
+            		
+            		<div class="refaddress">
+            					
+            				<label> Street address: </label>
+            					
+            				<input id="ref-address" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="ref-address"/>
+            				
+            		</div>
+            		
+            		<div class="refcity">
+            					
+            				<label> City: </label>
+            					
+            				<input id="ref-city" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="ref-city"/>
+            				
+            		</div>
+            		
+            		<div class="state3">
+            			
+            				<label> State: </label>
+            				
+            				<select>
+            				
+                			<option value="Alabama">Alabama</option>
+                			<option value="Alaska">Alaska</option>
+               				<option value="Arizona">Arizona</option>
+                			<option value="Arkansas">Arkansas</option>
+                			<option value="California">California</option>
+                			<option value="Colorado">Colorado</option>
+                			<option value="Connecticut">Connecticut</option>
+                			<option value="Delaware">Delaware</option>
+                			<option value="Florida">Florida</option>
+                			<option value="Georgia">Georgia</option>
+                			<option value="Hawaii">Hawaii</option>
+                			<option value="Idaho">Idaho</option>
+                			<option value="Illinois">Illinois</option>
+                			<option value="Indiana">Indiana</option>
+                			<option value="Iowa">Iowa</option>
+                			<option value="Kansas">Kansas</option>
+                			<option value="Kentucky">Kentucky</option>
+                			<option value="Louisiana">Louisiana</option>
+                			<option value="Maine">Maine</option>
+                			<option value="Maryland">Maryland</option>
+                			<option value="Massachusetts">Massachusetts</option>
+                			<option value="Michigan">Michigan</option>
+                			<option value="Minnesota">Minnesota</option>
+                			<option value="Mississippi">Mississippi</option>
+                			<option value="Missouri">Missouri</option>
+                			<option value="Montana">Montana</option>
+                			<option value="Nebraska">Nebraska</option>
+                			<option value="Nevada">Nevada</option>
+                			<option value="New Hampshire">New Hampshire</option>
+                			<option value="New Jersey">New Jersey</option>
+                			<option value="New Mexico">New Mexico</option>
+                			<option value="New York">New York</option>
+                			<option value="North Carolina">North Carolina</option>
+                			<option value="North Dakota">North Dakota</option>
+                			<option value="Ohio">Ohio</option>
+                			<option value="Oklahoma">Oklahoma</option>
+                			<option value="Oregon">Oregon</option>
+                			<option value="Pennsylvania">Pennsylvania</option>
+                			<option value="Rhode Island">Rhode Island</option>
+               		 		<option value="South Carolina">South Carolina</option>
+                			<option value="South Dakota">South Dakota</option>
+                			<option value="Tennessee">Tennessee</option>
+                			<option value="Texas">Texas</option>
+                			<option value="Utah">Utah</option>
+                			<option value="Vermont">Vermont</option>
+                			<option value="Virginia">Virginia</option>
+                			<option value="Washington">Washington</option>
+                			<option value="West Virginia">West Virginia</option>
+                			<option value="Wisconsin">Wisconsin</option>
+                			<option value="Wyoming">Wyoming</option>
+            				
+            				</select>
+        		       
+        		       </div>
+            		
+            		<div class="refzip">
+            					
+            				<label> Zip: </label>
+            					
+            				<input id="ref-zip" type="text" autofocus=" "required=" " placeholder="Ex: 12345"
+            					
+            							name="ref-zip"/>
+            				
+            		</div>
+            		
+            		<h4> Reference 2 <em> (Relative not living with you.) </em> </h4>
+            								
+            		<div class="refname2">
+            					
+            				<label> Name: </label>
+            					
+            				<input id="ref-name2" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="ref-name2"/>
+            				
+            		</div>
+            		
+            		<div class="refrelations2">
+            					
+            				<label> Relationship: </label>
+            					
+            				<input id="ref-relations2" type="text" autofocus=""required="" placeholder=""
+            					
+            							name="ref-relations2"/>
+            				
+            		</div>
+            		
+            		<div class="refnumber2">
+            					
+            				<label> Phone number: </label>
+            					
+            				<input id="ref-number2" type="text" autofocus=" "required=" " placeholder="Ex: 123-456-7890"
+            					
+            							name="ref-number2"/>
+            				
+            		</div>
+            		
+            		<div class="refaddress2">
+            					
+            				<label> Street address: </label>
+            					
+            				<input id="ref-address2" type="text" autofocus=""required="" placeholder=""
+            					
+            							name="ref-address2"/>
+            				
+            		</div>
+            		
+            		<div class="refcity2">
+            					
+            				<label> City: </label>
+            					
+            				<input id="ref-city2" type="text" autofocus=" "required=" " placeholder=""
+            					
+            							name="ref-city2"/>
+            				
+            		</div>
+            		
+            		<div class="state4">
+            			
+            				<label> State: </label>
+            				
+            				<select>
+            				
+                			<option value="Alabama">Alabama</option>
+                			<option value="Alaska">Alaska</option>
+               				<option value="Arizona">Arizona</option>
+                			<option value="Arkansas">Arkansas</option>
+                			<option value="California">California</option>
+                			<option value="Colorado">Colorado</option>
+                			<option value="Connecticut">Connecticut</option>
+                			<option value="Delaware">Delaware</option>
+                			<option value="Florida">Florida</option>
+                			<option value="Georgia">Georgia</option>
+                			<option value="Hawaii">Hawaii</option>
+                			<option value="Idaho">Idaho</option>
+                			<option value="Illinois">Illinois</option>
+                			<option value="Indiana">Indiana</option>
+                			<option value="Iowa">Iowa</option>
+                			<option value="Kansas">Kansas</option>
+                			<option value="Kentucky">Kentucky</option>
+                			<option value="Louisiana">Louisiana</option>
+                			<option value="Maine">Maine</option>
+                			<option value="Maryland">Maryland</option>
+                			<option value="Massachusetts">Massachusetts</option>
+                			<option value="Michigan">Michigan</option>
+                			<option value="Minnesota">Minnesota</option>
+                			<option value="Mississippi">Mississippi</option>
+                			<option value="Missouri">Missouri</option>
+                			<option value="Montana">Montana</option>
+                			<option value="Nebraska">Nebraska</option>
+                			<option value="Nevada">Nevada</option>
+                			<option value="New Hampshire">New Hampshire</option>
+                			<option value="New Jersey">New Jersey</option>
+                			<option value="New Mexico">New Mexico</option>
+                			<option value="New York">New York</option>
+                			<option value="North Carolina">North Carolina</option>
+                			<option value="North Dakota">North Dakota</option>
+                			<option value="Ohio">Ohio</option>
+                			<option value="Oklahoma">Oklahoma</option>
+                			<option value="Oregon">Oregon</option>
+                			<option value="Pennsylvania">Pennsylvania</option>
+                			<option value="Rhode Island">Rhode Island</option>
+               		 		<option value="South Carolina">South Carolina</option>
+                			<option value="South Dakota">South Dakota</option>
+                			<option value="Tennessee">Tennessee</option>
+                			<option value="Texas">Texas</option>
+                			<option value="Utah">Utah</option>
+                			<option value="Vermont">Vermont</option>
+                			<option value="Virginia">Virginia</option>
+                			<option value="Washington">Washington</option>
+                			<option value="West Virginia">West Virginia</option>
+                			<option value="Wisconsin">Wisconsin</option>
+                			<option value="Wyoming">Wyoming</option>
+            				
+            				</select>
+        		       
+        		       </div>
+            		
+            		<div class="refzip2">
+            					
+            				<label> Zip: </label>
+            					
+            				<input id="ref-zip2" type="text" autofocus=" "required=" " placeholder="Ex: 12345"
+            					
+            							name="ref-zip2"/>
+            				
+            		</div>
+            	
+            		<div class="submit">
+            		
+            				<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          							Submit Application
+        					</button>
+        					
+        			</div>
+            				
+            				</fieldset>
+            				
+            				</section>
+            				
+            		</div>
+            				
+        </form>
+        
+        </div>
+        
+        </section>
+        
+        <!-- Footer Created -->
+        
+        <footer>							
+    
+    		©The Rental Place
+    		
+    	</footer>
+        
+		<!--JavaScript-->
+		
+			<script src="js/bootstrap.min.js"></script>
+			
+</body>
+
+</html>
+            				
+            				
+            		
+            						
+        		
+        		
+        				
+        				
+        				
             			
             		
             		

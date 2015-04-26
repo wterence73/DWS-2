@@ -1,1 +1,264 @@
 /* CSS Stylesheet */
+
+/** Beginning CSS **/
+
+body {
+      background: #e5e5e5;
+      font-family: 'Archivo Narrow', sans-serif;
+      width: 90%;
+      margin: 0;
+    }
+
+/*Headings*/
+
+    h1, h2 {
+      font-family: 'Oswald', sans-serif;
+    }
+    
+    h1, h3 {
+    		text-align: center;
+    		color: #29ABE2;
+    }
+
+    h2 {
+      color: #1F80AA;
+    }
+
+/*Main Navigation*/
+
+ ul {
+	font-family: Verdana;
+	font-size:0.656em;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 200%;
+	overflow: auto;
+	margin-left: 8.97%;
+}
+
+li {
+	text-decoration: none;
+	display: block;
+	padding: 5px 21px;
+	background: #5F3222;
+	color: #eee;
+	float: left;
+	text-align: center;
+	border-top: 2px solid #815444;
+	border-right: 2px solid #3d1000;
+	border-bottom: 2px solid #3d1000;
+	border-left: 10px solid #815444;
+	
+}
+
+li a {
+		color: #fff200;
+		
+}
+
+li a:hover {
+		color: #ed1c24;
+		transition-property: width;
+    	transition-delay:.5s;
+    	transition-duration: 2s;
+}
+
+a:hover {
+		color: #ed1c24;
+		
+}
+
+    
+    /*Jumbotron*/
+
+ .jumbotron {
+      background: #1e1e1e url("../images/RAC.jpg") center 50%;
+      background-repeat: no-repeat;
+      width: 81.9%;
+      margin-left: 9.1%;
+    }
+    
+    .jumbotron h1 {
+    	color: #fff;
+    	margin-top: -3%;
+    }
+    
+    .container {
+    		background: #e5e5e5;
+    }
+    
+    p {
+    	color: #fff;
+    }
+    
+    #continue {
+    		color: #29ABE2;
+    }
+    
+    
+    
+    
+    /*Links*/
+
+    a, a:link {
+      color: #29ABE2;
+    }
+    
+    /*Buttons*/
+
+    .btn-primary {
+      background-color: rgba(0,0,0,0.5);
+      border: 2px solid #39C;
+	  color: #fff;
+    }
+
+    .btn-primary:hover {
+      background-color: #3399CC;
+      border-color: #39C;
+      transition-delay:.5s;
+      transition-duration: 2s;
+    }
+   
+    /*Sections*/
+
+    section {
+      padding: 2.5% 5% 5% 5%;
+      box-shadow: 0px 1px 3px #999;
+    }
+    
+    section:nth-child(odd) {
+      background: #efefef;
+    }
+    
+    section + section {
+      background: #fcfcfc;
+      margin-top: 2%;
+    }
+    
+    section#about h2 {
+      color: #FFF;
+      
+    }
+
+    section#about {
+      background: #3399CC;
+      color: #fff;
+      width: 81.9%;
+      margin-left: 9.1%;
+     margin-top: -1%;
+    }
+    
+    section#product {
+      margin-top: 2%;
+      margin-left: 9.1%;
+      width: 81.9%;
+      
+    }
+    
+    section#enter {
+    	background: #efefef;
+    	margin-top: 2%;
+    	margin-left: 9.1%;
+    	margin-right: -53%;
+    	max-width: 81.8%;
+    }
+    
+    #fillapp {
+    		margin: 0 auto;
+    }
+
+    legend {
+    		text-align: center;
+    		padding: 2%;
+    }
+    
+    fieldset {
+    margin-bottom: 3%;
+    padding:1%;
+    font-size: 0.813em;
+}
+    
+    footer {
+      text-align: center; 
+      padding: 5% 0;
+    }
+    
+    /* Small devices (mobile landscape, 600px and up) */
+@media (min-width: 600px) { 
+
+  section#product img {
+    width: 150%;
+    height: auto;
+  }
+
+  section#product .need {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    font-size: 1.5em;
+    padding: 2.5%;
+  }
+
+} 
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  .entry img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  section#product .entry {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    font-size: 1.5em;
+    padding: 2.5%;
+    margin-top: 5.2%;
+  }
+
+  section#product .entry:first-child {
+      margin-top: 5%;
+  }
+
+  .form-control {
+    max-width: 650px;
+  }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  body {
+    font-size: 1.7em;
+  }
+
+  .col-lg-3 {
+    float: right;
+  }
+
+  .entry {
+    font-size: 0.7em;
+  }
+
+}
+
+/* Medium devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  body {
+    font-size: 1.7em;
+  }
+
+  .entry {
+    font-size: 0.8em;
+  }
+
+}
+    
+    
+
